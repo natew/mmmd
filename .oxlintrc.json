@@ -1,0 +1,10 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "plugins": ["import"],
+  "rules": {
+    "import/no-cycle": "error",
+    "no-unused-vars": "off",
+    "no-control-regex": "off",
+    "no-console": "off"
+  }
+}
